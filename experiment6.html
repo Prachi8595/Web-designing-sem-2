@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Marks System</title>
+<link rel="stylesheet" href="experiment3.css">
+</head>
+
+<body>
+
+<h2>Student Marks Management</h2>
+
+<div class="form">
+<input type="text" id="name" placeholder="Student Name">
+<input type="text" id="roll" placeholder="Roll Number">
+<input type="number" id="math" placeholder="Math Marks">
+<input type="number" id="science" placeholder="Science Marks">
+<input type="number" id="english" placeholder="English Marks">
+
+<button onclick="addStudent()">Add Student</button>
+</div>
+
+<div class="buttons">
+<button onclick="displayStudents()">Display All Students</button>
+<button onclick="calculateTotal()">Calculate Total Marks</button>
+<button onclick="calculateAverage()">Calculate Average Marks</button>
+<button onclick="showTopStudents()">Students Above 80 Average</button>
+<button onclick="showFailed()">Failed Students</button>
+<button onclick="countStudents()">Total Students</button>
+</div>
+
+<div id="output"></div>
+
+<script src="experiment6.js"></script>
+
+</body>
+</html>

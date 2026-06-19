@@ -1,0 +1,25 @@
+body{
+font-family: Arial;
+text-align: center;
+background: #e776a5;
+}
+
+input{
+padding:8px;
+margin:5px;
+}
+
+button{
+padding:20px;
+margin:15px;
+cursor:pointer;
+}
+
+#output{
+margin-top:20px;
+padding:10px;
+background:white;
+width:70%;
+margin-left:auto;
+margin-right:auto;
+}
